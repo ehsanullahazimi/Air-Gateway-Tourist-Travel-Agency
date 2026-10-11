@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Gateway Tourist & Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Air Gateway Tourist & Travel Agency</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Home Section-->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Explore the World Wit Air Gateway</h2>
+            <p>
+                Discover breathtaking destinations, exciting travel packages, and unforgettable experiences with Air Gateway Tourist & Travel Agency. Whether you're seeking adventure, relaxation, or cultural immersion, we have the perfect trip for you. Start your journey today and let us help you create memories that will last a lifetime.
+            </p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <!--Destinations Section-->
+    <section class="destinations" id="destinations">
+        <h2>Popular Destinations</h2>
+
+        <p class="section-description">
+            Discover some of the most popular travel destinations around the world. From stunning beaches to historic cities, we offer a variety of options to suit every traveler's preferences. Explore our curated list of top destinations and start planning your next adventure with Air Gateway Tourist & Travel Agency.
+        </p>
+
+        <div class="destination-container">
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600"
+                alt="Beautiful coastal village in Italy">
+                <h3>Italy</h3>
+                <p>Experience the rich history, art, and cuisine of Italy. From the romantic streets of Venice to the ancient ruins of Rome, Italy offers a diverse range of experiences for every traveler.
+                </p>
+                <a href="#contact" class="card-btn">Explore More</a>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
+                alt="Beautiful mountain landscape">
+                <h3>Switzerland</h3>
+                <p>Discover the breathtaking beauty of Switzerland with its snow-capped peaks, pristine lakes, and charming alpine villages. Experience world-class skiing, hiking, and scenic train rides through this picturesque country.
+                </p>
+                <a href="#contact" class="card-btn">Explore More</a>
+            </div>
+
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600"
+                alt="Modren Building in Dubai">
+                <h3>Dubai</h3>
+                <p>Experience the luxury and modernity of Dubai, a city known for its iconic skyscrapers, vibrant nightlife, and world-class shopping. Explore the desert landscapes, indulge in fine dining, and enjoy thrilling adventures in this dynamic city.
+                </p>
+                <a href="#contact" class="card-btn">Explore More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Travel Packages Section-->
+    <section class="packages" id="packages">
+        <h2>Our Travel Packages</h2>
+        <div class="package-container">
+
+            <div class="package-container">
+                <div class="package-card">
+                <h3>Basic Package</h3>
+                <h4>Price: $499</h4>
+                <p>3 Days / 2 Nights</p>
+                <p>Hotel Accommodation</p>
+                <p>City Tour</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+
+            <div class="package-card featured">
+                <h3>Premium Package</h3>
+                <h4>Price: $999</h4>
+                <p>5 Days / 4 Nights</p>
+                <p>Deluxe Hotel Accommodation</p>
+                <p>Guided Tours</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+
+            <div class="package-card">
+                <h3>Family Package</h3>
+                <h4>Price: $1499</h4>
+                <p>10 Days / 9 Nights</p>
+                <p>Family-Friendly Hotel Accommodation</p>
+                <p>Multiple Destinations</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Air Gateway Travel</h2>
+            <p>
+                Air Gateway Tourist & Travel Agency is dedicated to providing exceptional travel experiences for our clients. With years of expertise in the travel industry, we specialize in creating personalized itineraries that cater to your unique preferences and interests. Our team of travel experts is committed to ensuring that every aspect of your journey is seamless and memorable. Whether you're planning a romantic getaway, a family vacation, or an adventurous expedition, Air Gateway is here to make your travel dreams a reality.
+            </p>
+            <p>
+                Our goal is to make every journey comfortable, enjoyable,
+                and unforgettable.
+            </p>
+            <a href="#contact" class="btn">Contact Our Team</a>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p class="section-description">
+            Have a question or want to plan your next trip? Contact us.
+        </p>
+
+        <form class="contact-form">
+
+            <label for="name">Full Name</label>
+            <input type="text" 
+            placeholder="Enter your full name" 
+            required
+            id="name"
+            name="name"
+            >
+
+            <label for="email">Email Address</label>
+            <input type="email"
+            placeholder="Enter your email address"
+            required
+            id="email"
+            name="email"
+            >
+
+            <label for="destination">Preferred Destinattion</label>
+            <seclect id="destination" name="destination">
+                <option value="">Select Destination</option>
+                <option value="Italy">Italy</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Other">Other</option>
+            </seclect>
+
+        </form>
+
+    </section>
+
+
+    
+</body>
+</html>
